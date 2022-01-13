@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 const LandingPage = () => {
   return (
-    <div id="home" className="w-full h-screen flex justify-center items-center  px-8 bg-blueish text-white md:bg-background md:bg-transparent bg-cover ">
+    <div id="home" className="w-full h-screen flex justify-center items-center  px-8 bg-blueish text-white md:bg-background md:bg-transparent bg-cover bg-origin-border ">
       <div className="text-center ">
         <h1 className="font-bold text-3xl uppercase mb-2 ">Kelvin Pella</h1>
         <h2 className=" ">Front-End Developer</h2>
