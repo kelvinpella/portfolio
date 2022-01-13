@@ -17,6 +17,11 @@ const Footer = () => {
           <img src={LinkedIn} alt="twitter" />
         </a>
       </div>
+      <footer className=" w-full p-2.5  text-center  text-xs ">
+          <p className=" md:mb-7">
+            &copy; {new Date().getFullYear()} Kelvin Pella
+          </p>
+        </footer>
     </div>
   );
 };

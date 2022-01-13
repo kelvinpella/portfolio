@@ -3,8 +3,8 @@ import Carousal from "./Carousal";
 
 const ProjectList = () => {
   return (
-    <div id="projects" className="w-full  py-4 px-4  bg-white  text-blackish  ">
-      <h1 className="text-reddish  text-2xl font-bold my-6 text-center">
+    <div id="projects" className="w-full pt-16  pb-4 px-4  bg-white  text-blackish  ">
+      <h1 className="text-reddish  text-2xl font-bold mb-6 text-center md:text-4xl">
         Projects
       </h1>
       <div className="mb-4">
@@ -14,7 +14,7 @@ const ProjectList = () => {
         <p>
           Share your instagram username and chat with other instagram users.
         </p>
-        <Carousal />
+        {/* <Carousal /> */}
         <h2 className=" text-source text-base underline underline-offset-4 mt-4">View source</h2>
         <hr className="mt-4" />
       </div>
@@ -26,7 +26,7 @@ const ProjectList = () => {
           A blockchain application to identify fake products from retail online
           stores.
         </p>
-        <Carousal />
+        {/* <Carousal /> */}
         <h2 className=" text-source text-base underline underline-offset-4 mt-4">View source</h2>
         <hr className="mt-4" />
       </div>
@@ -38,7 +38,7 @@ const ProjectList = () => {
           This is an automation tool for Catia Composer, which simplifies
           interaction with excel files.
         </p>
-        <Carousal />
+        {/* <Carousal /> */}
         <h2 className=" text-source text-base underline underline-offset-4 mt-4">View source</h2>
         <hr className="mt-4" />
       </div>
