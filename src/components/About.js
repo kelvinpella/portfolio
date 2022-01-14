@@ -2,7 +2,10 @@ import React from "react";
 import Kelvin from "../assets/kelvin.jpg";
 const About = () => {
   return (
-    <div id="about" className="w-full text-center pt-16  px-8 md:px-0 bg-white  ">
+    <div
+      id="about"
+      className="w-full text-center pt-16  px-8 md:px-0 bg-white  "
+    >
       <h1 className="text-reddish text-2xl font-bold my-6 md:text-4xl">
         About Me
       </h1>
@@ -15,7 +18,7 @@ const About = () => {
       </p>
       <button className="bg-blueish text-sm rounded py-4 px-6 mb-6 hover:bg-blue-800">
         <a
-          href="https://drive.google.com/file/d/1L34zKiik48uG8JO-p1M6EP6Vx6olLGI5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LUtpHwKeactvAsYW1XozYtlEppscnVfJ/view?usp=sharing"
           className="text-white no-underline"
           target="_blank"
           rel="noreferrer"

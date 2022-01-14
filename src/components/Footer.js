@@ -9,14 +9,26 @@ const Footer = () => {
         Connect with me
       </p>
       <div className="max-w-80 mx-auto pb-6 flex justify-evenly items-center md:max-w-md  ">
-        <a className="">
+        <a
+          href="https://twitter.com/kelvin_webdev"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={Twitter} alt="twitter" />
         </a>
-        <a className="">
-          <img src={Github} alt="twitter" />
+        <a
+          href="https://github.com/kelvinpellah"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Github} alt="github" />
         </a>
-        <a className="">
-          <img src={LinkedIn} alt="twitter" />
+        <a
+          href="https://www.linkedin.com/in/kelvinpella/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={LinkedIn} alt="linkedin" />
         </a>
       </div>
       <footer className=" w-full p-2.5  text-center  text-xs md:text-sm">

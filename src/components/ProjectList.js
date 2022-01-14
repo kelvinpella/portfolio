@@ -1,6 +1,14 @@
 import React from "react";
 import Carousal from "./Carousal";
-
+import Interact1 from "../assets/interact1.jpg";
+import Interact2 from "../assets/interact2.jpg";
+import Interact3 from "../assets/interact3.jpg";
+import Intermezzi1 from "../assets/intermezzi1.jpg";
+import Intermezzi2 from "../assets/intermezzi2.jpg";
+import Intermezzi3 from "../assets/intermezzi3.jpg";
+import Intercept1 from "../assets/intercept1.jpg";
+import Intercept2 from "../assets/intercept2.jpg";
+import Intercept3 from "../assets/intercept3.jpg";
 const ProjectList = () => {
   return (
     <div
@@ -11,30 +19,50 @@ const ProjectList = () => {
         Projects
       </h1>
       <div className="mb-4 md:max-w-3xl md:mx-auto">
-        <h1 className=" text-blueish font-bold text-base md:text-2xl ">
+        <a
+          href="https://interact-for-instagram-86ecb.web.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline mb-2 block text-blueish font-bold text-base md:text-2xl "
+        >
           Interact For Instagram
-        </h1>
+        </a>
         <p className="md:text-lg ">
           Share your instagram username and chat with other instagram users.
         </p>
-        <Carousal />
-        <h2 className=" text-source text-base underline underline-offset-4 mt-4 md:text-lg">
+        <Carousal images={[Interact1, Interact2, Interact3]} />
+        <a
+          href="https://github.com/kelvinpellah/interact"
+          target="_blank"
+          rel="noreferrer"
+          className=" block text-source text-base underline underline-offset-4 mt-4 md:text-lg"
+        >
           View source
-        </h2>
+        </a>
         <hr className="mt-4 " />
       </div>
       <div className="mb-4 md:max-w-3xl md:mx-auto">
-        <h1 className=" text-blueish font-bold text-base md:text-2xl ">
+        <a
+          href="https://intermezzi-16dd9.web.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline mb-2 block text-blueish font-bold text-base md:text-2xl "
+        >
           Intermezzi Blockchain dApp
-        </h1>
+        </a>
         <p className="md:text-lg ">
           A blockchain application to identify fake products from retail online
           stores.
         </p>
-        {/* <Carousal /> */}
-        <h2 className=" text-source text-base underline underline-offset-4 mt-4 md:text-lg">
+        <Carousal images={[Intermezzi1, Intermezzi2, Intermezzi3]} />
+        <a
+          href="https://github.com/kelvinpellah/intermezzi"
+          target="_blank"
+          rel="noreferrer"
+          className=" block text-source text-base underline underline-offset-4 mt-4 md:text-lg"
+        >
           View source
-        </h2>
+        </a>
         <hr className="mt-4 " />
       </div>
       <div className="mb-4 md:max-w-3xl md:mx-auto">
@@ -45,10 +73,15 @@ const ProjectList = () => {
           This is an automation tool for Catia Composer, which simplifies
           interaction with excel files.
         </p>
-        {/* <Carousal /> */}
-        <h2 className=" text-source text-base underline underline-offset-4 mt-4 md:text-lg">
+        <Carousal images={[Intercept1, Intercept2, Intercept3]} />
+        <a
+          href="https://github.com/kelvinpellah/Intercept"
+          target="_blank"
+          rel="noreferrer"
+          className=" block text-source text-base underline underline-offset-4 mt-4 md:text-lg"
+        >
           View source
-        </h2>
+        </a>
         <hr className="mt-4 " />
       </div>
       <p className="text-base text-black md:max-w-3xl md:mx-auto md:text-xl">
