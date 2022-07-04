@@ -1,5 +1,8 @@
 import React from "react";
 import Carousal from "./Carousal";
+import Prairi1 from "../assets/prairi1.jpg";
+import Prairi2 from "../assets/prairi2.jpg";
+import Prairi3 from "../assets/prairi3.jpg";
 import Interact1 from "../assets/interact1.jpg";
 import Interact2 from "../assets/interact2.jpg";
 import Interact3 from "../assets/interact3.jpg";
@@ -18,6 +21,21 @@ const ProjectList = () => {
       <h1 className="text-reddish  text-2xl font-bold mb-6 text-center md:text-4xl">
         Projects
       </h1>
+      <div className="mb-4 md:max-w-3xl md:mx-auto">
+        <a
+          href="https://prairi-e67a4.web.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline mb-2 block text-blueish font-bold text-base md:text-2xl "
+        >
+          Prairi
+        </a>
+        <p className="md:text-lg ">
+          Match with Startups and Investors.
+        </p>
+        <Carousal images={[Prairi1,Prairi2,Prairi3]} />
+        <hr className="mt-4 " />
+      </div>
       <div className="mb-4 md:max-w-3xl md:mx-auto">
         <a
           href="https://interact-for-instagram-86ecb.web.app/"
@@ -87,7 +105,7 @@ const ProjectList = () => {
       <p className="text-base text-black md:max-w-3xl md:mx-auto md:text-xl">
         See more of my projects on{" "}
         <a
-          href="https://github.com/kelvinpellah"
+          href="https://github.com/kelvinpella"
           target="_blank"
           rel="noreferrer"
           className="text-blueish font-bold no-underline md:text-2xl"

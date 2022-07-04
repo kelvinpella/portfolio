@@ -12,9 +12,10 @@ const About = () => {
       <div className="max-w-80 mx-auto mb-6 md:max-w-xs">
         <img className="w-full" src={Kelvin} alt="kelvin" />
       </div>
-      <p className="w-full text-blackish text-base mb-6 md:text-lg md:max-w-lg md:mx-auto">
-        I am a Front-End developer from Tanzania. I work hard, I care about
-        writing clean code and I genuinely love to learn.
+      <p className="w-full text-blackish text-base mb-6 md:text-lg md:max-w-lg md:mx-auto text-justify">
+        I am a former Electrical Engineer who transitioned into Web Development.
+        While I prefer frontend React development, I am familiar with Node.js
+        and Python too. Please view 'Projects' section to see some of my work.
       </p>
       <button className="bg-blueish text-sm rounded py-4 px-6 mb-6 hover:bg-blue-800">
         <a

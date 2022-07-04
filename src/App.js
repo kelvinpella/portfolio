@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./components/About";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./components/LandingPage/LandingPage";
 import ProjectList from "./components/ProjectList";
 import Skills from "./components/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +9,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className=" w-screen font-spartan text-white bg-whitish ">
+    <div className=" w-full font-spartan text-white bg-whitish ">
       <NavBar />
       <LandingPage />
       <About />

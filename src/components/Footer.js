@@ -17,7 +17,7 @@ const Footer = () => {
           <img src={Twitter} alt="twitter" />
         </a>
         <a
-          href="https://github.com/kelvinpellah"
+          href="https://github.com/kelvinpella"
           target="_blank"
           rel="noreferrer"
         >
